@@ -1,0 +1,63 @@
+Python, Java, Cplusplus. Java é um conjunto de software de computador e especificações que fornece uma plataforma de software para desenvolver software de aplicativo e implantá-lo em um ambiente de computação multiplataforma. Java é usado em uma ampla variedade de plataformas de computação, de dispositivos embarcados e telefones celulares a servidores corporativos e supercomputadores. C++ é usado em campos como software de sistema, desenvolvimento de jogos, sistemas embarcados, computação científica e aplicativos de alto desempenho . A biblioteca padrão C++ fornece uma gama de utilitários e funções de codificação, facilitando o desenvolvimento de sistemas de software complexos..Python é uma linguagem de programação de alto nível, sensível a maiúsculas e minúsculas, de propósito geral. Sua filosofia de design enfatiza a legibilidade do código com o uso de recuo significativo. Python é dinamicamente tipado e coletado como lixo. 
+
+
+//////////////////////////////////////////////////////////
+
+
+C++
+#include <iostream> // Include necessary header files
+
+using namespace std;
+
+int main() {
+    // Declare variables and initialize them if needed
+
+    // Input from the user if required
+
+    // Perform calculations or logic
+
+    // Output results
+
+    return 0;
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Python
+# Import necessary modules (if any)
+import module1
+import module2
+
+# Define functions or classes (if needed)
+def function_name(parameters):
+    # Code for the function's logic
+
+# Main program logic
+def main():
+    # Input data
+    input_data = ...
+
+    # Process data
+    processed_data = function_name(input_data)
+
+    # Output results
+    print(processed_data)
+
+# Run the main program
+if __name__ == "__main__":
+    main()
+
+
+///////////////////////////////////////////////////////////////////////////////
+
+
+Java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");   
+
+    }
+}
+
+
+Referências e fontes -> Gemini, python.org, www.java.com, Techtarget
