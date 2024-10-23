@@ -1,0 +1,37 @@
+Python
+def bubble_sort(lista):
+  """Implementa o algoritmo de ordenação Bubble Sort.
+
+  Args:
+    lista: A lista a ser ordenada.
+
+  Returns:
+    A lista ordenada.
+  """
+
+  n = len(lista)
+
+  # Traverse through all array elements
+  for i in range(n):
+    trocou = False
+    # Last i elements are already in place
+    for j in range(0, n-i-1):
+      # Traverse the array from 0 to n-i-1
+      # Swap if the element found is greater
+      # than the next element
+      if   
+ lista[j] > lista[j+1] :
+        lista[j], lista[j+1] = lista[j+1], lista[j]   
+
+        trocou = True
+
+    # IF no two elements were swapped by inner loop, then break
+    if not trocou:
+      break
+
+  return lista
+
+# Exemplo de uso:
+minha_lista = [64, 34, 25, 12, 22, 11, 90]
+lista_ordenada = bubble_sort(minha_lista)
+print(lista_ordenada)
