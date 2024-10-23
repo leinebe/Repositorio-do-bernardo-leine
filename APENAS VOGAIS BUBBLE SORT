@@ -1,0 +1,21 @@
+Python
+def bubble_sort_vogais(frase):
+  """Ordena as vogais de uma frase utilizando o Bubble Sort e as imprime.
+
+  Args:
+    frase: A frase de entrada.
+  """
+
+  vogais = [letra for letra in frase.lower() if letra in 'aeiou']
+
+  n = len(vogais)
+  for i in range(n):
+    for j in range(0, n-i-1):
+      if vogais[j] > vogais[j+1]:
+        vogais[j], vogais[j+1] = vogais[j+1], vogais[j]
+
+  print("Vogais ordenadas:", vogais)
+
+# Exemplo de uso:
+frase = "Olá, mundo! Como vai você?"
+bubble_sort_vogais(frase)
